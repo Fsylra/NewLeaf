@@ -183,7 +183,7 @@ img{
 .nav__logo {
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: -1px;
+    letter-spacing: 3px;
     display: inline-flex;
     align-items: center;
     column-gap: .5rem;
@@ -360,3 +360,23 @@ img{
 
 
 
+
+
+/*about*/
+
+.about__container {
+    row-gap: 2rem;
+}
+
+.about__img{
+    width: 280px;
+    justify-self: center;
+}
+
+.about__title{
+    margin-bottom: var(--mb-1);
+}
+
+.about__description{
+    margin-bottom: var(--mb-2);
+}
