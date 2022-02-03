@@ -258,6 +258,13 @@ img{
 
 
 
+/*background header*/
+.scroll-header{
+    box-shadow: -2px 0 4px hsla(var(--hue), 24%, 15%, .1);
+    transition: .3s easse;
+}
+
+
 
 /*home*/
 
@@ -358,9 +365,14 @@ img{
     column-gap: .5rem;
 }
 
+.button--link{
+    color: var(--first-color);
+    font-weight: var(--font-medium);
+}
 
-
-
+.button--link:hover .button__icon{
+    transform: translateX(.30rem);
+}
 
 /*about*/
 
@@ -379,4 +391,22 @@ img{
 
 .about__description{
     margin-bottom: var(--mb-2);
+}
+
+.about__details{
+    display:grid;
+    row-gap: 1rem;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__details-description{
+    display:flex;
+    column-gap: .5rem;
+    font-size: var(--small-font-size);
+}
+
+.about__details-icon{
+    font-size: 1rem;
+    color: var(--first-color);
+    margin-top: .15rem;
 }
